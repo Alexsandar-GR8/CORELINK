@@ -358,4 +358,174 @@ footer {
     margin-right: 10px;
     font-size: 14px;
   }
+/* DARK BLACK / GREY IT THEME OVERRIDE */
+
+body {
+  background: #050505;
+  color: #e5e7eb;
+}
+
+
+.header {
+  background:
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.08), transparent 35%),
+    linear-gradient(135deg, #000000 0%, #080808 45%, #1a1a1a 100%);
+  color: white;
+}
+
+.logo {
+  color: #ffffff;
+}
+
+.logo span {
+  color: #9ca3af;
+}
+
+.nav-links a {
+  color: #f3f4f6;
+}
+
+.nav-links a:hover {
+  color: #9ca3af;
+}
+
+.header .tagline,
+.tagline,
+.section-label {
+  color: #a3a3a3;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.hero-text {
+  color: #d1d5db;
+}
+
+/* BUTTONS */
+.primary,
+button {
+  background: #ffffff;
+  color: #050505;
+  box-shadow: 0 14px 35px rgba(255, 255, 255, 0.12);
+}
+
+.primary:hover,
+button:hover {
+  background: #d4d4d4;
+  transform: translateY(-2px);
+}
+
+.secondary {
+  background: #151515;
+  color: #ffffff;
+  border: 1px solid #3a3a3a;
+}
+
+.secondary:hover {
+  background: #262626;
+}
+
+/* MAIN SECTIONS */
+.section,
+.about {
+  background: #050505;
+}
+
+.section h2,
+.about h2,
+.cta h2 {
+  color: #ffffff;
+}
+
+.section p,
+.about p {
+  color: #cbd5e1;
+}
+
+/* CARDS */
+.card,
+.about-box,
+form {
+  background: #111111;
+  color: #e5e7eb;
+  border: 1px solid #2a2a2a;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.55);
+}
+
+.card:hover {
+  background: #1a1a1a;
+  border-color: #4b5563;
+  transform: translateY(-6px);
+}
+
+.card h3 {
+  color: #ffffff;
+}
+
+.card p {
+  color: #cbd5e1;
+}
+
+.about-box li {
+  color: #d1d5db;
+}
+
+/* CTA BOX */
+.cta {
+  background:
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.1), transparent 35%),
+    linear-gradient(135deg, #000000, #151515);
+  border: 1px solid #2f2f2f;
+  color: white;
+}
+
+.cta p {
+  color: #d1d5db;
+}
+
+/* FORM */
+input,
+textarea {
+  background: #080808;
+  color: white;
+  border: 1px solid #333333;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #9ca3af;
+  box-shadow: 0 0 0 4px rgba(156, 163, 175, 0.14);
+}
+
+/* FOOTER */
+footer {
+  background: #000000;
+  color: #d1d5db;
+  border-top: 1px solid #222222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
