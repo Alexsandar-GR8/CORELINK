@@ -3,103 +3,244 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CoreLink IT Solutions</title>
+  <meta name="description" content="CoreLink IT Solutions provides premium IT support, structured cabling, Wi-Fi setup, device configuration and secure technology services." />
+  <title>CoreLink IT Solutions | Premium IT & Network Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
-    <nav class="nav">
-      <div class="logo">CoreLink<span> IT Solutions</span></div>
-      <div class="nav-links">
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="#top" aria-label="CoreLink IT Solutions home">
+        <span class="brand-mark">CL</span>
+        <span class="brand-text">CoreLink <strong>IT Solutions</strong></span>
+      </a>
+      <div class="nav-links" aria-label="Primary navigation">
         <a href="#services">Services</a>
-        <a href="#about">About</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#process">Process</a>
         <a href="#contact">Contact</a>
       </div>
+      <a class="nav-cta" href="#contact">Request Quote</a>
     </nav>
-
-    <section class="hero">
-      <div class="hero-content">
-        <p class="tagline">Secure • Configure • Connect</p>
-        <h1>Reliable IT, cabling and technology solutions for homes and businesses.</h1>
-        <p class="hero-text">
-          CoreLink IT Solutions helps clients with network setup, cable management,
-          computer support, device configuration, and secure technology solutions.
-        </p>
-        <div class="buttons">
-          <a class="btn primary" href="#contact">Request a Quote</a>
-          <a class="btn secondary" href="#services">View Services</a>
-        </div>
-      </div>
-    </section>
   </header>
 
-  <main>
-    <section id="services" class="section">
-      <p class="section-label">What We Do</p>
-      <h2>Practical technology services made simple.</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Network & Wi‑Fi Setup</h3>
-          <p>Router setup, Wi‑Fi optimisation, network troubleshooting, and secure home or business connectivity.</p>
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Secure • Configure • Connect</p>
+          <h1>Premium IT, networking and cabling solutions built for reliability.</h1>
+          <p class="hero-text">
+            CoreLink helps homes, small businesses and workspaces get clean, secure and professional technology setups — from Wi‑Fi and Ethernet to device configuration and IT support.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get a Quote</a>
+            <a class="btn btn-secondary" href="#services">Explore Services</a>
+          </div>
+          <div class="trust-row" aria-label="CoreLink benefits">
+            <span>Clean installations</span>
+            <span>Secure setup</span>
+            <span>Clear communication</span>
+          </div>
         </div>
-        <div class="card">
-          <h3>Ethernet & Cable Management</h3>
-          <p>Clean cable runs, wall cable pass-throughs, organised racks, and professional workstation cabling.</p>
-        </div>
-        <div class="card">
-          <h3>Computer Support</h3>
-          <p>PC setup, diagnostics, repairs, software configuration, backups, and general technical support.</p>
-        </div>
-        <div class="card">
-          <h3>Security & Device Configuration</h3>
-          <p>Secure device setup, account protection, MFA guidance, basic cyber hygiene, and safe data handling.</p>
+
+        <div class="hero-panel" aria-label="CoreLink service dashboard preview">
+          <div class="panel-top">
+            <span class="status-dot"></span>
+            <span>CoreLink Service Status</span>
+          </div>
+          <div class="metric-card large">
+            <p>Network Readiness</p>
+            <strong>98%</strong>
+            <span>Optimised for speed, coverage and security</span>
+          </div>
+          <div class="mini-grid">
+            <div class="metric-card">
+              <p>Wi‑Fi</p>
+              <strong>Stable</strong>
+            </div>
+            <div class="metric-card">
+              <p>Cabling</p>
+              <strong>Clean</strong>
+            </div>
+            <div class="metric-card">
+              <p>Devices</p>
+              <strong>Ready</strong>
+            </div>
+            <div class="metric-card">
+              <p>Security</p>
+              <strong>Protected</strong>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="about">
-      <div>
-        <p class="section-label">Why CoreLink</p>
-        <h2>Built on trust, detail and reliable service.</h2>
+    <section class="logo-strip section-shell" aria-label="Service highlights">
+      <span>IT Support</span>
+      <span>Structured Cabling</span>
+      <span>Wi‑Fi Optimisation</span>
+      <span>Cyber Hygiene</span>
+      <span>Device Setup</span>
+    </section>
+
+    <section id="services" class="section-shell content-section">
+      <div class="section-heading">
+        <p class="eyebrow">What We Do</p>
+        <h2>Professional technology services for modern homes and businesses.</h2>
+        <p>Practical support, clean workmanship and secure configuration — without confusing tech talk.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card featured">
+          <span class="icon">◎</span>
+          <h3>Network & Wi‑Fi Setup</h3>
+          <p>Router setup, Wi‑Fi coverage improvements, access point placement, troubleshooting and secure connectivity.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">↔</span>
+          <h3>Ethernet & Cable Management</h3>
+          <p>Wall pass-throughs, cable runs, tidy workstations, rack organisation and clean network layouts.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">▣</span>
+          <h3>Computer & Device Support</h3>
+          <p>New PC setup, diagnostics, software configuration, backups, printer/device support and troubleshooting.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">◈</span>
+          <h3>Security Configuration</h3>
+          <p>MFA guidance, secure account setup, device hardening, password hygiene and safe data handling basics.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">⌂</span>
+          <h3>Home Office Setup</h3>
+          <p>Reliable home workspaces with organised cabling, stable internet, monitors, docks and device configuration.</p>
+        </article>
+        <article class="service-card">
+          <span class="icon">◇</span>
+          <h3>Small Business IT</h3>
+          <p>Practical technology support for small teams needing reliable systems, secure devices and clean setups.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="solutions" class="split-section section-shell">
+      <div class="glass-card">
+        <p class="eyebrow">Why CoreLink</p>
+        <h2>Designed to look clean, work properly and stay secure.</h2>
         <p>
-          We focus on delivering neat, secure and practical IT solutions. Whether you need a simple home setup,
-          a small business network, or clean cabling for a workspace, CoreLink provides clear communication and
-          professional results.
+          A premium setup is not just about making cables disappear. It is about reliability, future maintenance and confidence that everything has been configured properly.
         </p>
       </div>
-      <div class="about-box">
-        <h3>Our Promise</h3>
-        <ul>
-          <li>Professional and friendly service</li>
-          <li>Clean and organised installations</li>
-          <li>Secure setup and practical advice</li>
-          <li>Clear quotes with no confusion</li>
-        </ul>
+      <div class="benefit-list">
+        <div>
+          <strong>01</strong>
+          <h3>Neat workmanship</h3>
+          <p>Clean cable paths, tidy finishes and organised technology spaces.</p>
+        </div>
+        <div>
+          <strong>02</strong>
+          <h3>Security-first setup</h3>
+          <p>Practical safeguards for accounts, devices, networks and data.</p>
+        </div>
+        <div>
+          <strong>03</strong>
+          <h3>Clear quoting</h3>
+          <p>Simple scope, clear next steps and professional communication.</p>
+        </div>
       </div>
     </section>
 
-    <section class="cta">
-      <h2>Need IT help or cabling work done properly?</h2>
-      <p>Send us a message and we’ll get back to you with a clear next step.</p>
-      <a class="btn primary" href="#contact">Contact CoreLink</a>
+    <section id="process" class="section-shell content-section">
+      <div class="section-heading compact">
+        <p class="eyebrow">How It Works</p>
+        <h2>Simple process. Professional result.</h2>
+      </div>
+      <div class="process-grid">
+        <div class="process-step">
+          <span>1</span>
+          <h3>Tell us what you need</h3>
+          <p>Send through the issue, location, photos if needed and your preferred outcome.</p>
+        </div>
+        <div class="process-step">
+          <span>2</span>
+          <h3>We assess the best setup</h3>
+          <p>We review the job and recommend a practical, clean and secure solution.</p>
+        </div>
+        <div class="process-step">
+          <span>3</span>
+          <h3>Work completed properly</h3>
+          <p>Your setup is completed with care, tested and explained clearly.</p>
+        </div>
+      </div>
     </section>
 
-    <section id="contact" class="section contact">
-      <p class="section-label">Get In Touch</p>
-      <h2>Request a quote</h2>
-      <form>
-        <input type="text" placeholder="Your name" />
-        <input type="email" placeholder="Email address" />
-        <input type="tel" placeholder="Phone number" />
-        <textarea placeholder="Tell us what you need help with"></textarea>
-        <button type="submit">Send Message</button>
+    <section class="cta-band section-shell">
+      <div>
+        <p class="eyebrow">Ready when you are</p>
+        <h2>Need IT help, cabling or a cleaner setup?</h2>
+        <p>Request a quote and CoreLink will help you plan the right next step.</p>
+      </div>
+      <a class="btn btn-primary" href="#contact">Request Quote</a>
+    </section>
+
+    <section id="contact" class="section-shell contact-section">
+      <div class="contact-copy">
+        <p class="eyebrow">Get In Touch</p>
+        <h2>Request a quote</h2>
+        <p>Send your details and a short description of the job. Include photos if you later reply by email — they help with faster quoting.</p>
+        <div class="contact-details">
+          <p><strong>Services:</strong> IT support, Wi‑Fi, Ethernet, device setup, cabling and security configuration.</p>
+          <p><strong>Response:</strong> Clear quote, scope and next step.</p>
+        </div>
+      </div>
+
+      <form class="quote-form" action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New CoreLink Quote Request">
+        <label>
+          Full name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email address
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Phone number
+          <input type="tel" name="phone" placeholder="0400 000 000" />
+        </label>
+        <label>
+          Service needed
+          <select name="service" required>
+            <option value="">Select a service</option>
+            <option>IT Support</option>
+            <option>Wi‑Fi / Network Setup</option>
+            <option>Ethernet / Cabling</option>
+            <option>Device Configuration</option>
+            <option>Security Setup</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>
+          Message
+          <textarea name="message" placeholder="Tell us what you need help with" required></textarea>
+        </label>
+        <button type="submit">Send Quote Request</button>
+        <p class="form-note">Replace <strong>YOUR_EMAIL_HERE</strong> in the form action with your email before publishing.</p>
       </form>
-      <p class="note">Note: This form is a front-end template. Connect it to email or a form service before publishing.</p>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 CoreLink IT Solutions. All rights reserved.</p>
+  <footer class="footer">
+    <div class="section-shell footer-inner">
+      <p>© 2026 CoreLink IT Solutions. All rights reserved.</p>
+      <p>Secure • Configure • Connect</p>
+    </div>
   </footer>
 </body>
 </html>
