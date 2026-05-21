@@ -6,14 +6,14 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #102033;
-  background: #f6f9fc;
+  color: #000000;
+  background: #505559;
   line-height: 1.6;
 }
 
 .header {
   background: linear-gradient(135deg, #061426 0%, #0b3558 55%, #0f8bb3 100%);
-  color: white;
+  color: rgb(115, 115, 115);
   min-height: 720px;
 }
 
