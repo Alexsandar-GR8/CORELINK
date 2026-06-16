@@ -6,7 +6,7 @@ accessory hire business.
 ## Structure
 
 ```
-coturehirebygia/
+CoutureHireByGia/
 ├── index.html   # Single-page site (hero, collection, how it works, about, contact)
 ├── style.css    # Elegant warm/blush theme
 └── README.md
@@ -25,7 +25,7 @@ coturehirebygia/
 It's a static site — just open `index.html` in a browser, or serve the folder:
 
 ```bash
-cd coturehirebygia
+cd CoutureHireByGia
 python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
