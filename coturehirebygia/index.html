@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Couture Hire by Gia</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">Couture Hire <span>by Gia</span></div>
+
+      <div class="nav-links">
+        <a href="#collection">Collection</a>
+        <a href="#how">How It Works</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="tagline">Designer • Elegant • Effortless</p>
+
+        <h1>Rent stunning designer pieces for every special occasion.</h1>
+
+        <p class="hero-text">
+          Couture Hire by Gia brings high-end designer dresses and accessories
+          to your wardrobe for a fraction of the price. Look incredible,
+          spend less, and return when you're done.
+        </p>
+
+        <div class="buttons">
+          <a href="#contact" class="btn primary">Book a Fitting</a>
+          <a href="#collection" class="btn secondary">View Collection</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <section class="section" id="collection">
+    <p class="section-label">The Collection</p>
+
+    <h2>Curated styles for every moment.</h2>
+
+    <p>
+      From red-carpet glamour to elegant occasion wear, our hand-selected
+      collection is regularly refreshed with the latest designer pieces.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Evening Gowns</h3>
+        <p>
+          Floor-length designer gowns for galas, weddings,
+          and formal celebrations.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Cocktail Dresses</h3>
+        <p>
+          Chic, modern pieces perfect for parties, dinners,
+          and special nights out.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Bridal &amp; Events</h3>
+        <p>
+          Elegant looks for brides, bridesmaids, and guests
+          who want to feel unforgettable.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Accessories</h3>
+        <p>
+          Statement jewellery, clutches, and finishing touches
+          to complete your look.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section how" id="how">
+    <p class="section-label">How It Works</p>
+
+    <h2>Hiring designer pieces, made simple.</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>1. Browse</h3>
+        <p>
+          Explore the collection and choose the pieces that suit
+          your occasion and style.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>2. Book</h3>
+        <p>
+          Reserve your dates and book a fitting to make sure
+          everything is perfect.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>3. Wear</h3>
+        <p>
+          Collect or have your outfit delivered, then shine
+          at your event.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>4. Return</h3>
+        <p>
+          Simply return your pieces when you're done — we handle
+          the cleaning.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div>
+      <p class="section-label">About Gia</p>
+
+      <h2>Designer fashion, made accessible and effortless.</h2>
+
+      <p>
+        Couture Hire by Gia was created to make high-end fashion accessible
+        for every special occasion. We believe you shouldn't have to buy an
+        expensive outfit you'll only wear once. With a personal styling touch
+        and a carefully curated wardrobe, Gia helps you find the perfect look.
+      </p>
+    </div>
+
+    <div class="about-box">
+      <h3>Why Hire With Us?</h3>
+
+      <ul>
+        <li>Authentic designer pieces</li>
+        <li>Personal styling and fittings</li>
+        <li>Flexible hire periods</li>
+        <li>Cleaning included</li>
+        <li>Affordable luxury for any event</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Have an event coming up?</h2>
+
+    <p>
+      Tell us the occasion and your style, and Couture Hire by Gia
+      will help you find the perfect piece.
+    </p>
+
+    <a href="#contact" class="btn primary">Book a Fitting</a>
+  </section>
+
+  <section class="section contact" id="contact">
+    <p class="section-label">Contact</p>
+
+    <h2>Enquire or book</h2>
+
+    <p>
+      Fill out the form below with your occasion, dates, and any pieces
+      you're interested in.
+    </p>
+
+    <form name="hire-enquiry" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="hire-enquiry" />
+
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="phone" placeholder="Phone Number" />
+      <input type="text" name="event-date" placeholder="Event Date" />
+      <textarea name="message" placeholder="Tell us about your event and the look you're after" required></textarea>
+
+      <button type="submit">Send Enquiry</button>
+    </form>
+
+    <p class="note">
+      Enquiries will appear in your Netlify Forms section after deployment.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Couture Hire by Gia. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
